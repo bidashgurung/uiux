@@ -1,0 +1,360 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bg-color: #2a2a2a;
+    --second-bg-color: #202020;
+    --text-color: #fff;
+    --second-color: #ccc;
+    --main-color: #05b4ff;
+    --big-font: 5rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+     justify-content: center;
+ }
+
+.aboutproject{
+    position: relative;
+    left: 10%;
+    top: 15vh;
+    border: 1px solid white;
+    align-items: center;
+    width: 80%;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 20px; /* Gap between grid items */
+    padding: 20px; /* Padding for spacing */
+ 
+}
+.logo img {
+  width:100%;
+    transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.logo img:hover {
+  transform: scale(1.1); /* Enlarge the image on hover */
+}
+ 
+
+.roles{
+  position: relative;
+  left: 10%;
+  top: 20vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  width: 80%;
+  background-color: #202020;
+  border-radius: 10px;
+  gap: 30px;
+ }
+
+.items{
+  width: 70%;
+  text-align: center;
+  margin: 20px;
+}
+
+.row{
+  height: 30vh;
+}
+
+
+.userpersona{
+  width: 80%;
+  position: relative;
+  left: 10%;
+  top: 5vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border: 1pz solid white;
+  background-color: #202020;
+  border-radius: 20px;
+
+  gap: 20px;
+}
+.users{
+  margin: 60px;
+}
+.users img{
+   width: 8cm;
+  filter: drop-shadow(1px 1px 10px white);
+  transition: transform 0.3s ease; /* Add transition effect */
+
+
+ }
+.users img:hover {
+  transform: scale(1.1); /* Enlarge the image on hover */
+}
+ .map{
+  position: relative;
+  left: 10%;
+  top: 10vh;
+  text-align: center;
+  width: 80%;
+ }
+
+.map img{
+  width: 80%;
+  filter: drop-shadow(1px 1px 10px white);
+  transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.map img:hover {
+  transform: scale(1.1); /* Enlarge the image on hover */
+}
+
+
+.story{
+  display: grid;
+  grid-template-columns: auto auto;
+  position: relative;
+  left: 10%;
+  top: 20vh;
+  text-align: center;
+  width: 80%;
+  background-color: #202020;
+  border-radius: 20px;
+
+  }
+  
+.story img{
+  width: 80%;
+  filter: drop-shadow(1px 1px 10px white);
+  transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.story img:hover {
+  transform: scale(1.1); /* Enlarge the image on hover */
+}
+  
+.paper{
+  position: relative;
+  left: 10%;
+  top: 30vh;
+  text-align: center;
+  width: 80%;
+  }
+
+.paper img{
+  width: 80%;
+  filter: drop-shadow(1px 1px 10px white);
+  transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.paper img:hover {
+  transform: scale(1.1); /* Enlarge the image on hover */
+}
+.images{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.digital{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  top: 40vh;
+    margin: 10px;
+  background-color: #202020;
+
+}
+.digital .items{
+  margin: 40px;
+  }
+
+.digital .items img{
+  width: 120%;
+  filter: drop-shadow(1px 1px 10px white);
+  transition: transform 0.3s ease;
+}
+  img:hover{
+  transform: scale(1.1); /* Enlarge the image on hover */
+
+}
+
+
+
+.hifiW{
+  position: relative;
+  left: 10%;
+  top: 45vh;
+  text-align: center;
+  width: 80%;
+ }
+
+.hifiW img{
+  width: 80%;
+  filter: drop-shadow(1px 1px 10px white);
+  transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.hifiW img:hover {
+  transform: scale(1.1); /* Enlarge the image on hover */
+}
+
+
+.research{
+  position: relative;
+  left: 10%;
+  top: 50vh;
+  text-align: center;
+  width: 80%;
+   border-radius: 20px;
+
+  }
+
+.research img{
+  width: 80%;
+  filter: drop-shadow(1px 1px 10px white);
+  transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.research img:hover {
+  transform: scale(1.1); /* Enlarge the image on hover */
+}
+.research .images{
+  display: grid;
+  grid-template-columns: auto auto;
+  position: relative;
+  left: 3%;
+}
+
+.userresearch,.hifi{
+  position: relative;
+  left: 10%;
+  top: 60vh;
+  text-align: center;
+  width: 80%;
+ }
+
+.userresearch img, .hifi img{
+  width: 80%;
+  filter: drop-shadow(1px 1px 10px white);
+  transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.userresearch img,.hifi img:hover {
+  transform: scale(1.1); /* Enlarge the image on hover */
+}
+
+
+.mockup{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  top: 70vh;
+    margin: 10px;
+  background-color: #202020;
+  
+}
+
+.mockup img{
+  width: 100%;
+  filter: drop-shadow(1px 1px 10px white);
+  transition: transform 0.3s ease;
+}
+ 
+.mockup .items{
+  margin: 80px;
+}
+.mockup img:hover{
+  transform: scale(1.1); /* Enlarge the image on hover */
+
+}
+
+.hifi{
+  top: 75vh;
+}
+
+
+.audit{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 80%;
+  position: relative;
+  left: 13%;
+  top: 80vh;
+ 
+
+}
+
+.audit .items{
+  width: 70%;
+  text-align: center;
+  margin: 20px;
+}
+
+.audit img{
+  width: 100%;
+  filter: drop-shadow(1px 1px 10px white);
+  transition: transform 0.3s ease;
+}
+
+.audit img :hover{
+  transform: scale(1.1); /* Enlarge the image on hover */
+
+}
+
+.learning{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  top: 110vh;
+  background-color: #202020;
+
+}
+.learning .items{
+  width: 60%;
+  text-align: center;
+  margin: 100px;
+}
+
+.end{
+  position: relative;
+  top: 120vh;
+}
+
+.report{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 80%;
+  position: relative;
+  left: 13%;
+  top: 100vh;
+}
+
+.report .items{
+  width: 70%;
+  text-align: center;
+  margin: 20px;
+}
+
+.report img{
+  width: 100%;
+  filter: drop-shadow(1px 1px 10px white);
+  transition: transform 0.3s ease;
+}
+
+.report img :hover{
+  transform: scale(1.1); /* Enlarge the image on hover */
+
+}
